@@ -1,0 +1,14 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "A simple proxy server",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "node proxy.js"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  },
+  "author": "",
+  "license": "MIT"
+}
