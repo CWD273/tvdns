@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
 
     // Proxy the request to the target URL
     proxy.web(req, res, {
-        target: 'http://fl2.moveonjoy.com/CARTOON_NETWORK/index.m3u8?checkedby:alliptvlinks.com'
+        target: 'http://84.17.40.25/CARTOON_NETWORK/index.m3u8?checkedby%3Aalliptvlinks.com%2F'
     });
 });
 
